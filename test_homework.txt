@@ -1,0 +1,15 @@
+https://github.com/safaleks/AkBars/tree/main
+
+git clone https://github.com/safaleks/AkBars
+cd AkBars
+echo "# AkBars" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -m Main
+git push -u origin main
+git branch feature/homework
+git checkout feature/homework
+git add *
+git commit -m "учимся учиться"
+git push origin feature/homework
